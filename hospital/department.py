@@ -7,7 +7,7 @@ class department(hospital):
         self.patient = patient
     def __add_patient_to_dep(self,patient):
         pass
-    
+
     def __add_staff_to_deb(self,staff):
         pass
     def get_patient_in_dep():
