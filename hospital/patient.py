@@ -2,14 +2,16 @@ from person import person
 
 class patient(person):
 
-    def __init__(self,name,age,phone_number,arrival_time,leaving_time,email="",password="",disease=''):
-        super().__init__(name,age,phone_number,email,password)
+    def __init__(self,name,age,phone_number,arrival_time,disease=''):
+        super().__init__(name,age,phone_number)
         self.arrival_time=arrival_time
-        self.leaving_time=leaving_time
         self.disease=disease
-    def set_medical_disease(self,disease):
+    @classmethod
+    def set_medical_disease(cls,email,disease):
         pass
-    def medical_record(self):
+    @classmethod
+    def medical_record(cls,email):
         pass
-    def personal_record(self):# get patient info from file patient
+    @classmethod
+    def personal_record(cls,email):# get patient info from file patient
         pass

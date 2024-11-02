@@ -7,7 +7,6 @@ class person():
         self.email=email
         self.password=password
         person.ID+=1
-        self.count+=1
         print(person.ID)
         
         
