@@ -11,3 +11,4 @@ class person():
         
     def view_info(self):# getv info from file user
         pass
+
