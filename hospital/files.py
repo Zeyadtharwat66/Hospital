@@ -34,3 +34,7 @@ class files():
 x=files(r"C:\Users\Lenovo\Desktop\shared_github\hospital\patient.txt")
 x.write_to_file("patient.txt",{"zeyad":{"age":"22","phone_Number":"01148656665"},"adel":{"age":"21","phone_Number":"012"}})
 ziad=x.file_to_nested_dictionary()
+<<<<<<< HEAD
+=======
+print(ziad)
+>>>>>>> fec66a65f028baab2428fb9848b32f8e2ec65e36
