@@ -1,4 +1,5 @@
 from person import person
+from files import files
 class staff(person):
     def __init__(self,name="",age="",phone_number="",role="",email="",password=""):
         super().__init__(name,age,phone_number,email,password)
@@ -15,12 +16,10 @@ class staff(person):
     def login(cls,email,password):
         pass    
     def signup(self,confirm_password):
+        f=files()
         if not self.password == confirm_password:
             raise 'warning'
-        #
-        #انو اليوسر مينفعش يكون مستخدم
-        #
+        
         dic = {self.name:{ "email":self.email, "password":self.password,"age":self.age,"role":self.role}}
-        print(dic[self.name])
 
 
