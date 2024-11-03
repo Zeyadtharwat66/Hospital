@@ -1,4 +1,1 @@
-{'zeyad': {'age': '22', 'phone_Number': '01148656665', 'ID':'0', 'Gender': 'male'}}
-{'adel': {'age': '21', 'phone_Number': '012', 'ID':'1','Gender': 'male'}}
-{'omar': {'age': '20', 'phone_Number': '0165124554', 'ID':'2','Gender': 'male'}}
-
+{'khaled': {'age': '24', 'phone_number': '011486566665', 'arrival_time': '12:50', 'disease': 'backache'}}
