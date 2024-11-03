@@ -2,7 +2,7 @@ from person import person
 
 class patient(person):
 
-    def __init__(self,name,age,phone_number,arrival_time,disease=''):
+    def __init__(self,name,age,phone_number,arrival_time,email,disease=''):
         super().__init__(name,age,phone_number)
         self.arrival_time=arrival_time
         self.disease=disease
