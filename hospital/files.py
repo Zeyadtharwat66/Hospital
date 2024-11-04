@@ -32,10 +32,3 @@ class files():
                 main_dic.setdefault(key1,dic2.copy())
                 dic2.clear()
         return main_dic
-    
-x=files(r"C:\D\Amit\Duo\hospital\patient.txt")
-# x.write_to_file("patient.txt",{"zeyad":{"age":"22","phone_Number":"01148656665"},"adel":{"age":"21","phone_Number":"012"}})
-ziad=x.file_to_nested_dictionary()
-print(ziad)
-print(type(ziad))
-print(type(ziad.get('zeyad')))
