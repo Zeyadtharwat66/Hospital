@@ -1,10 +1,7 @@
-from hospital import hospital
-class department(hospital):
-    def __init__(self,name='',manger='',staff=[],patient=[]):
+class department():
+    def __init__(self,name='',manger=''):
         self.name = name
         self.manger = manger
-        self.staff = staff
-        self.patient = patient
 
     def __add_patient_to_dep(self,patient):
         pass
