@@ -3,7 +3,6 @@ class hospital:
         self.name = name
         self.location = location
         
-    
     def add_dep():
         pass
     
