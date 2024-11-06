@@ -1,6 +1,5 @@
 from files import files
 from hospital import hospital
-from staff import staff
 class department(hospital):
     def __init__(self,name='',manger=''):
         self.name = name

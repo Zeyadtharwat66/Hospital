@@ -1,4 +1,3 @@
-from hospital import hospital
 from files import files
 class person():
     ID=0

@@ -1,6 +1,5 @@
 from files import files
 from patient import patient
-from department import department
 class hospital:
     def __init__(self,name,location):
         self.name = name
@@ -27,6 +26,5 @@ class hospital:
         return f.file_to_nested_dictionary()
     
 s=hospital(location="Egypt",name="ELITE")
-s.add_dep(department(name="Zeyad",manger="DR.Khaled"))
 s.add_patient(patient(name="khaled",age="24",phone_number="011486566665",arrival_time="12:50",email="ziad@gmail.com",disease='backache'))
 print(s.get_all_patients())
