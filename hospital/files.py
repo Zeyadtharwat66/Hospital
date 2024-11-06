@@ -6,7 +6,12 @@ class files():
         f=open(f"{file_name}", "a")
         f.write(f"{content}\n")
         f.close()
-    
+        
+    def update_file(self,file_name,content):
+        f=open(f"{file_name}", "w")
+        f.write(f"{content}\n")
+        f.close()    
+
     def read_dic_location(self):
         input = open(self.paths, "r")
         w = input.read().splitlines()

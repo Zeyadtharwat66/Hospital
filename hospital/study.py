@@ -1,2 +1,4 @@
-x=[1,2,3,4,5,6,7,8,9]
-print(type(z))
+x={'ziad@gmail.com': {'name': 'khaled', 'age': '24', 'phone_number': '011486566665', 'arrival_time': '12:50', 'disease': 'backache'}}
+email="ziad@gmail.com"
+
+print(x[email]["disease"])
