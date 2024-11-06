@@ -31,12 +31,3 @@ class files():
                 dic2.clear()
         return main_dic
     
-# x=files(r"C:\Users\Lenovo\Desktop\shared_github\hospital\patient.txt")
-# x.write_to_file("patient.txt",{"zeyad":{"age":"22","phone_Number":"01148656665"},"adel":{"age":"21","phone_Number":"012"}})
-# ziad=x.file_to_nested_dictionary()
-<<<<<<< HEAD
-# for i in ziad.items():
-#     print(i[1]['Gender'])
-=======
-# print(ziad)
->>>>>>> daa29b0148440070a7999fc8992779b258750e96
