@@ -1,1 +1,0 @@
-{'adel': {'age': '20', 'phone_number': '01157954172', 'role': 'dr', 'email': 'adel@gmail.com','department':'name','patient':[]}}

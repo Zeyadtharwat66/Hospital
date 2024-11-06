@@ -33,9 +33,7 @@ if __name__ == '__main__':
             phone_number=input('enter phone_number: ')
             arrival_time=time.time()
             disease=input('enter disease: ')
-            p=patient(name,age,phone_number,arrival_time,disease)
-            staff().add_my_patien(p,email)
-            
+            p=patient(name,age,phone_number,arrival_time,disease)            
         elif y=="2":
             staff().view_info(email)
         elif y=='3':

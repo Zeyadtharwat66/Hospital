@@ -1,6 +1,6 @@
-from department import department
 from files import files
 from patient import patient
+from department import department
 class hospital:
     def __init__(self,name,location):
         self.name = name
