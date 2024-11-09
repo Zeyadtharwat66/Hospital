@@ -1,8 +1,12 @@
+from hospital import hospital
 from person import person
 from staff import staff
 from patient import patient
 import time 
 if __name__ == '__main__':
+    h=hospital(location="Alexandria, Egypt",name="Elite Hospital")
+    print(f"{h.name}")
+    print(f"{h.location}")
     choose=input("choose 1 if u r a staff member and 2 if u r patient ")
     if choose=="1":
         y=input("choose 1 if u want to sign up and 2 for login ")
@@ -23,7 +27,7 @@ if __name__ == '__main__':
             staff().login(email, password)
         else:
             print("invalid input")
-            #continue
+            #continue   
         y=input("choose if u want to add patient press 1\n  press 2 for get your info view info\n press 3 to get patient info")
         if y == "1":
             name=input('enter name: ')
