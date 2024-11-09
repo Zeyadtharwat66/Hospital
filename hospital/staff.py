@@ -6,14 +6,14 @@ class staff(person):
         self.role=role
     @classmethod
     def view_info(cls,email):#get imfo from staff file
-        f=files(r'C:\Users\Lenovo\Desktop\shared_github\staff.txt')
+        f=files(r'C:\D\Duo\hospital\staff.txt')
         content=f.file_to_nested_dictionary()
         for i in content.values():
             if i['email']==email:
                 return i
     @classmethod
     def login(cls,email,password):
-        f=files(r'C:\Users\Lenovo\Desktop\shared_github\staff.txt')
+        f=files(r'C:\D\Duo\hospital\staff.txt')
         content=f.file_to_nested_dictionary()
         flag = False
         for i in content.values():
@@ -24,12 +24,12 @@ class staff(person):
         else:
             raise 'worning'
     def signup(self,confirm_password):
-        f=files(r'C:\Users\Lenovo\Desktop\shared_github\staff.txt')
+        f=files(r'C:\D\Duo\hospital\staff.txt')
         if not self.password == confirm_password:
             raise 'warning'
         content=f.file_to_nested_dictionary()
         if self.name in content.keys():
             raise 'warning'
-        f.write_to_file('staff.txt',content={self.name:{'age':self.age, 'phone_number':self.phone_number,'role':self.role, 'email':self.email}})
+        f.write_to_file('staff.txt',content={self.name:{'age':self.age, 'phone_number':self.phone_number,'role':self.role, 'email':self.email,'password':self.password}})
 
 

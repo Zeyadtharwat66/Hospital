@@ -1,0 +1,2 @@
+{'zeyad': {'age': '22', 'phone_number': '01148656665', 'role': 'doctor', 'email': 'ziadtharwat@gmail.com', 'password': '123456'}}
+{'adel': {'age': '21', 'phone_number': '012212554', 'role': 'doctor', 'email': 'adel@gmail.com', 'password': '123456789'}}

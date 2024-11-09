@@ -24,13 +24,11 @@ class files():
         main_dic = {}
         dic1={}
         dic2 = {}
-        print(x)
         for i in range(len(x)):
             if ':' in x[i]:
                 key1 = x[i][0 : x[i].index(":")]
                 x[i]=x[i][x[i].index(":")+1:].strip()
                 z=x[i].split(",")
-                print(z)
                 for j in z:
                     key2 = j[0 : j.index(":")].strip()
                     dic2.setdefault(key2,j[j.index(":")+1:].strip())
