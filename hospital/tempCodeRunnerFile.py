@@ -18,6 +18,7 @@ if __name__ == '__main__':
             password=input('enter password : ')
             email=input('enter email : ')
             confirm_password=input('enter confirm password : ')
+            print('c  '+confirm_password +'  '+password)
             s=staff(name, age, phone_number, role, email, password)
             s.signup(confirm_password)
         elif y=="2":
@@ -26,6 +27,7 @@ if __name__ == '__main__':
             staff().login(email, password)
         else:
             print("invalid input")
+            #continue   
         y=input("choose if you want to add patient press 1\n  press 2 for get your info view info\n press 3 to get patient info")
         if y == "1":
             name=input('enter name : ')
@@ -42,6 +44,7 @@ if __name__ == '__main__':
             print(patient().personal_record(emailz))
         else:
             print('invalid input')
+            #continue
     elif choose=="2":
         emailp=input("Enter email address : ")
         y= input('if you want set medical disease press 1 \nif you want show medical record press 2 \nif you want show personal record press 3 \n')

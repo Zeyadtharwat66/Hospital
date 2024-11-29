@@ -1,10 +1,4 @@
 from files import files
-from hospital import hospital
-class department(hospital):
-    def __init__(self,name='',manger=''):
-        self.name = name
-        self.manger = manger 
-
 class department():
     def __init__(self,name='',manger=''):
         self.name = name

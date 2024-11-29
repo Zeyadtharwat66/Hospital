@@ -22,7 +22,7 @@ class staff(person):
         if flag:
             return 'login successful'
         else:
-            raise 'worning'
+            raise 'warning'
     def signup(self,confirm_password):
         f=files(r'C:\D\Duo\hospital\staff.txt')
         if not self.password == confirm_password:
